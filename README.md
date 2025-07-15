@@ -1,3 +1,1 @@
-# Tutorial 
-
-https://youtu.be/ECxtBChPbk0
+# Sandy-GPT
