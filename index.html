@@ -10,18 +10,6 @@
 
     <!-- Markdown Rendering -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-    <!-- Code Highlighting -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/highlight.js/styles/github.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/highlight.js/lib/common"></script>
-
-    <!-- Highlight code after load -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => hljs.highlightAll());
-    </script>
   </head>
 
   <body class="bg-[#f4f6fa] text-gray-900 font-sans">
@@ -33,7 +21,7 @@
         >
           <div>
             <h2 class="text-lg font-semibold">Sandy</h2>
-            <p class="text-xs text-gray-500">DeepSeek R1 v1.1.0</p>
+            <p class="text-xs text-gray-500">AI Business Assistant</p>
           </div>
           <div class="flex items-center gap-3">
             <label for="modeSelect" class="text-sm text-gray-600">Mode:</label>
@@ -41,7 +29,6 @@
               <option value="quick" selected>Quick Response</option>
               <option value="deep">Deep Think</option>
             </select>
-            <button class="text-gray-500 text-xl">🔍</button>
             <button class="text-gray-500 text-xl">⚙️</button>
           </div>
         </header>
@@ -51,7 +38,7 @@
           id="messages"
           class="flex-1 overflow-y-auto px-6 py-4 space-y-4 bg-[#f4f6fa]"
         >
-          <!-- Messages will be appended here -->
+          <!-- Messages will appear here -->
         </main>
 
         <!-- Input Footer -->
@@ -72,7 +59,7 @@
       </div>
     </div>
 
-    <!-- Script (type module) -->
+    <!-- Main Script -->
     <script type="module" src="script.js"></script>
   </body>
 </html>
