@@ -51,7 +51,7 @@ async function sendMessage() {
         method: "POST",
         headers: {
           Authorization:
-            "Bearer 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",
+            "Bearer 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",
           "HTTP-Referer": "http://127.0.0.1:5500", // match your local server
           "X-Title": "SandyAI",
           "Content-Type": "application/json",
